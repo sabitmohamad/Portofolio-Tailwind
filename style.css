@@ -1,0 +1,32 @@
+.belakang {
+  background: radial-gradient(65% 100% at 50% 0%, #00ff94 0%, rgba(0, 255, 148, 0.25) 100%), linear-gradient(230deg, #000000 25%, #170059 100%), linear-gradient(215deg, #ffebb9 10%, #19004e 80%),
+    radial-gradient(100% 245% at 100% 100%, #ffffff 0%, #000353 100%), linear-gradient(125deg, #1400ff 0%, #3a0000 100%),
+    linear-gradient(225deg, #00f0ff 30%, #000b6f 45%, #00ebfc 45%, #001676 65%, #00e1f6 65%, #001676 85%, #00ecfd 85%, #001676 100%),
+    linear-gradient(135deg, #00f0ff 0%, #000b6f 15%, #00ebfc 15%, #001676 35%, #00e1f6 35%, #001676 55%, #00ecfd 55%, #001676 100%);
+  background-blend-mode: soft-light, screen, overlay, overlay, difference, overlay, normal;
+  background-repeat: no-repeat;
+}
+
+body {
+  background: linear-gradient(238.72deg, #ffb864 0%, #006c4c 100%), radial-gradient(100% 224.43% at 0% 0%, #6cff72 0%, #002c6d 100%), linear-gradient(121.28deg, #ffeab6 0%, #00563c 100%),
+    radial-gradient(56.26% 101.79% at 50% 0%, #8f00ff 0%, #000000 100%), linear-gradient(65.05deg, #6f0072 0%, #dbffe5 100%);
+  background-blend-mode: overlay, screen, color-burn, screen, normal;
+}
+
+.glass-bg {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  /* backdrop-filter: blur(10px); */
+  /* -webkit-backdrop-filter: blur(10px); */
+  border-radius: 20px;
+  border: 1 px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0.37);
+}
+
+.penutup {
+  background: radial-gradient(65% 100% at 50% 0%, #00ff94 0%, rgba(0, 255, 148, 0.25) 100%), linear-gradient(230deg, #000000 25%, #170059 100%), linear-gradient(215deg, #ffebb9 10%, #19004e 80%),
+    radial-gradient(100% 245% at 100% 100%, #ffffff 0%, #000353 100%), linear-gradient(125deg, #1400ff 0%, #3a0000 100%),
+    linear-gradient(225deg, #00f0ff 30%, #000b6f 45%, #00ebfc 45%, #001676 65%, #00e1f6 65%, #001676 85%, #00ecfd 85%, #001676 100%),
+    linear-gradient(135deg, #00f0ff 0%, #000b6f 15%, #00ebfc 15%, #001676 35%, #00e1f6 35%, #001676 55%, #00ecfd 55%, #001676 100%);
+  background-blend-mode: soft-light, screen, overlay, overlay, difference, overlay, normal;
+  background-repeat: no-repeat;
+}
